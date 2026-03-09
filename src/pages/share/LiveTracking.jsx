@@ -360,7 +360,7 @@ import LiveMarker from "../../components/map/LiveMarker";
 import LocationCard from "../../components/UI/LocationCard";
 import RoutingPanel from "../../components/UI/RoutingPanel";
 import Notification from "../../components/UI/Notification";
-import RoutePath from "../../components/Map/RoutePath";
+import RoutePath from "../../components/map/routePath.jsx";
 import GenerateLinkButton from "../../components/share/GenerateLinkButton";
 import { useGeolocation } from "../../components/UI/hooks/useGeolocation";
 import { ArrowLeft } from "lucide-react";

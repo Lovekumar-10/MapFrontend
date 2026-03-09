@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MapView from "../../components/map/MapView";
 import LiveMarker from "../../components/map/LiveMarker";
-import RoutePath from "../../components/Map/RoutePath";
+import routePath from "../../components/map/routePath.jsx";
 import Notification from "../../components/UI/Notification";
 import socket, { getRoute } from "../../services/socket";
 
@@ -158,7 +158,7 @@ const TrackingViewer = () => {
         )}
 
         {/* ROUTE PATH */}
-        {routePath.length > 0 && <RoutePath positions={routePath} />}
+        {routePath.length > 0 && <routePath positions={routePath} />}
       </MapView>
 
       {/* SESSION ENDED OVERLAY */}
