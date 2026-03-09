@@ -46,7 +46,10 @@
 
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:5000"; 
+// const SOCKET_URL = "http://localhost:5000"; 
+const SOCKET_URL = "https://map-backend-ib2f.onrender.com"; 
+
+
 const socket = io(SOCKET_URL);
 
 /**
