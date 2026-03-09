@@ -360,7 +360,7 @@ import LiveMarker from "../../components/map/LiveMarker";
 import LocationCard from "../../components/UI/LocationCard";
 import RoutingPanel from "../../components/UI/RoutingPanel";
 import Notification from "../../components/UI/Notification";
-import RoutePath from "../../components/map/routePath.jsx";
+import Path from "../../components/map/Path";
 import GenerateLinkButton from "../../components/share/GenerateLinkButton";
 import { useGeolocation } from "../../components/UI/hooks/useGeolocation";
 import { ArrowLeft } from "lucide-react";
@@ -718,7 +718,7 @@ const LiveTracking = () => {
           />
         )}
         {routeData.path.length > 0 && (
-          <RoutePath
+          <Path
             positions={routeData.path}
             speedInfo={routeData.speedInfo}
           />

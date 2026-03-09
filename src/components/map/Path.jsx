@@ -2,7 +2,7 @@
 
 import { Polyline } from "react-leaflet";
 
-function routePath({ positions = [], speedInfo = null }) {
+function Path({ positions = [], speedInfo = null }) {
   // 1. Fallback: If no traffic data is found, show the standard blue line
   if (!speedInfo || !speedInfo.values || speedInfo.values.length === 0) {
     return (
@@ -60,4 +60,4 @@ function routePath({ positions = [], speedInfo = null }) {
   );
 }
 
-export default routePath;
+export default Path;
