@@ -1,8 +1,8 @@
-# Live Location & Route Map App 🌍
+# Track It🌍
 
 A **full-stack interactive map application** that allows users to **share their live location** and **find routes** between two points. Built with **React**, **Leaflet**, and **Node.js/Express**, this project combines real-time map functionality with a clean and responsive UI.
 
-[Live Demo](https://map-frontend-mu.vercel.app/) | [GitHub Repo](https://github.com/Lovekumar-10/map-full-stack)
+[Live Demo](https://map-frontend-mu.vercel.app/) 
 
 ---
 
@@ -15,7 +15,7 @@ A **full-stack interactive map application** that allows users to **share their 
 - [Tech Stack](#tech-stack)  
 - [Challenges & Learnings](#challenges--learnings)  
 - [Future Improvements](#future-improvements)  
-- [Screenshots](#screenshots)  
+
 - [Author](#author)  
 
 ---
@@ -102,7 +102,6 @@ This project solves the problem by:
 **Love Kumar** – Frontend & Full-Stack Developer  
 📍 New Delhi, India  
 
-- [GitHub](https://github.com/Lovekumar-10)  
 - [Portfolio](https://lovekumar.vercel.app)  
 
 ---
